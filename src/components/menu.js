@@ -31,7 +31,7 @@ export default class Menu extends React.PureComponent {
       borderBottom: '0.2rem double slateblue',
     }}>
       {/* { category.map((cat) => (<h3>{cat}</h3>))} */}
-      { ['linux', 'eclipse', 'spring', 'java', 'react', 'gatsby'].map((cat) => <MenuButton to={cat}>{cat}</MenuButton>) }
+      { ['about', 'linux', 'eclipse', 'spring', 'java', 'react', 'gatsby'].map((cat) => <MenuButton to={cat}>{cat}</MenuButton>) }
     </aside>);
   }
 }
